@@ -1,0 +1,64 @@
+*{
+     background-color: lightyellow;
+}
+
+.Text1{ 
+     color: darkblue;
+     border: 10px solid blueviolet;
+ }
+ .bgy{
+ 	background-color: palegreen;
+
+ }
+ .box{
+ 	width: 50%;
+ 	height: 350px;
+ 	background-color: lightpink;
+     border: dashed red;
+ }
+p{
+     background-color: yellow;
+     color: darkblue;
+     font-size: 30px;
+}
+p.intro {
+  background-color: lightcoral;
+}
+a[target] {
+  background-color: lightgreen;
+  font-size: 100px;
+}
+a[target="_raad"] {
+  background-color: lightgoldenrodyellow;
+}
+[title~="flowers"] {
+  border: 20px solid yellow;
+}
+[lang|="en"] {
+  background: yellow;
+}
+p::before {
+  content: "Read this -";
+}
+input:checked {
+  height: 50px;
+  width: 50px;
+}
+input[type=text]:enabled {
+  background: #ffff00;
+}
+
+input[type=text]:disabled {
+  background: #dddddd;
+}
+input:focus {
+  background-color: yellow;
+}
+input:in-range {
+  border: 2px solid yellow;
+}
+::marker { 
+  color: red;
+  font-size: 30px;
+}
+
